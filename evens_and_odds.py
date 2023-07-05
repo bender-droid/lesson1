@@ -13,21 +13,16 @@ for number in random_list:
     else:
         odds.append(str(number))
 
+print(f'Список чисел: {", ".join(map(str, random_list))}')
 if odds and evens:
-    print(f'Список чисел: {random_list}')
     print()
     print(f'Четные числа: {", ".join(evens)}')
-    print()
     print(f'Нечетные числа: {", ".join(odds)}')
 elif odds and not evens:
-    print(f'Список чисел: {random_list}')
     print()
     print(f'Четных чисел нет!')
-    print()
     print(f'Нечетные числа: {", ".join(odds)}')
 elif evens and not odds:
-    print(f'Список чисел: {random_list}')
     print()
     print(f'Четные числа: {", ".join(evens)}')
-    print()
     print(f'Нечетных чисел нет!')
