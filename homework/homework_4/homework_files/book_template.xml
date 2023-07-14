@@ -1,0 +1,10 @@
+<Catalog>
+    <Book>
+        <Author>Lastname, Firstname</Author>
+        <Title>Book name</Title>
+        <Genre>Book genre</Genre>
+        <Price>Price</Price>
+        <PublishDate>YYYY-MM-DD</PublishDate>
+        <Description>Book description</Description>
+    </Book>
+</Catalog>
